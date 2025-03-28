@@ -54,6 +54,7 @@ th, td {
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    border-bottom: 1px solid #ccc;
 }
 
 /* Data Cells with Multiple Items */
@@ -64,5 +65,5 @@ td div {
 
 /* Avoid border for the last item in a cell */
 td div:last-child {
-    border
+    border-bottom: none;
 }
